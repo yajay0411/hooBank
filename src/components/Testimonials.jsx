@@ -26,7 +26,7 @@ export const TestimonialsCard = ({ content, name, img, title }) => (
 
 const Testimonials = () => {
     return (
-        <div id="clients" className={`${styles.flexCenter} flex-col my-20 w-full`}>
+        <div id="clients" className={`${styles.flexCenter} flex-col my-20 w-full clients`}>
             <div className={`flex md:flex-row  flex-col justify-between items-center `}>
                 <h1 className='font-poppins text-white text-[48px] font-semibold p-5 mx-5'>What people are saying about us</h1>
                 <p className='font-poppins text-dimWhite text-[18px]  p-5 mx-5 font-normal w-[400px]'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
