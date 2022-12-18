@@ -24,7 +24,7 @@ const Navbar = () => {
                         ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
                     >
                         <a
-                            href={`#${nav.id}`}>
+                            href={`${nav.id}`}>
                             {nav.title}
                         </a>
                     </li>

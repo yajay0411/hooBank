@@ -4,9 +4,9 @@ import { discount, robot } from "../assets/index.js";
 import GetStarted from './GetStarted.jsx';
 
 const Hero = () => (
-    <section className={`${styles.flexCenter} md:flex-row flex-col ${styles.paddingY} mx-auto`}>
+    <section id="product" className={`${styles.flexCenter} md:flex-row flex-col py-5 sm:py-0 mx-auto`}>
         <div className={`flex-1 ${styles.flexStart} flex-col sm:px-16 px-6 `}>
-            <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 '>
+            <div className='flex flex-row items-center px-4 bg-discount-gradient rounded-[10px] mb-2 '>
                 <img src={discount}
                     alt="discount"
                     className='w=[32px] h-[32px]'></img>
@@ -42,7 +42,7 @@ const Hero = () => (
             <div className='absolute z-[3] w-[80%] h-[80%] right-20 bottom-40 blue__gradient' />
         </div>
         <div className={`${styles.flexCenter}`}>
-            <div className='sm:hidden flex md: mr-4 mr-0'>
+            <div className='sm:hidden flex md:mr-4 mr-0'>
                 <GetStarted />
             </div>
         </div>

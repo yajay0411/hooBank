@@ -21,7 +21,7 @@ export const FeatureCard = ({ icon, title, content }) => {
 
 const Business = () => {
   return (
-    <div className={`${styles.flexCenter} max-w-[80%] md:flex-row flex-col my-20 mx-auto`}>
+    <div id="features" className={`${styles.flexCenter} max-w-[80%] md:flex-row flex-col my-20 mx-auto`}>
       <div className={`${styles.flexStart} flex-col mx-5`}>
         <h1 className='text-[48px] text-white font-poppins font-semibold my-2 leading-[60px]'>You do the business,<br className='sm:block hidden' /> we’ll handle the money.</h1>
         <p className='text-[18px] text-dimWhite max-w-[400px] my-1'>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
